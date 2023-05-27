@@ -23,9 +23,9 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 [CRYPTO-CURRENCIES-WEBAPP] <a name="about-project"></a>
+# 📖 CRYPTO-CURRENCIES-RANKING <a name="about-project"></a>
 
-**[Crypto Currencies Webapp]** is a website that display a list of cryptocurrency coins and their current market info.
+**[Crypto Currencies Ranking]** is a website that display a list of cryptocurrencies, their ranks and their current market info.
 
 ## 🛠 Built With <a name="built-with">React.js</a>
 
@@ -40,9 +40,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Display a list of Cryptocurrency coins]**
-- **[A search input to make searching for coins easier]**
-- **[State is managed with Redux]**
+- **Display a list of Cryptocurrency coins anf their ranks**
+- **A search input to make searching for coins easier**
+- **State is managed with Redux**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -69,8 +69,8 @@ To get a local copy up and running, follow these steps.
 Clone this repository to your desired folder:
 
 ```sh
-  git clone https://github.com/seyioyemade/currencies-webpp.git
-  cd currencies-webapp
+  git clone https://github.com/seyioyemade/crypto-currencies-webpp.git
+  cd crypto-currencies-webapp
 ```
 
 ### Install
@@ -113,7 +113,7 @@ To run tests, run the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/seyioyemade/currencies-webpp/issues).
+Feel free to check the [issues page](https://github.com/seyioyemade/crypto-currencies-webpp/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
