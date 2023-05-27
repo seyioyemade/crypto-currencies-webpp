@@ -1,8 +1,11 @@
 import { useState } from 'react';
+import { Provider } from 'react-redux';
+import { store } from '../../redux/store';
 import CurrenciesLogic from './CurrenciesLogic';
 
-const Currencies = () => {
+const Home = () => {
   const [search, setSearch] = useState('');
+
   return (
     <>
       <header>
@@ -18,9 +21,11 @@ const Currencies = () => {
           />
         </form>
       </header>
-      <CurrenciesLogic search={search} />
+      <Provider store={store}>
+        <CurrenciesLogic search={search} />
+      </Provider>
     </>
   );
 };
 
-export default Currencies;
+export default Home;

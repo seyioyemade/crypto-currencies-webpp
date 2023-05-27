@@ -36,6 +36,4 @@ export const CurrenciesSlice = createSlice({
   },
 });
 
-// export const { addBook, removeBook } = booksSlice.actions;
-
 export default CurrenciesSlice.reducer;

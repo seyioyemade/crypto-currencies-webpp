@@ -36,7 +36,7 @@ const CurrenciesLogic = ({ search }) => {
 };
 
 CurrenciesLogic.propTypes = {
-  search: PropTypes.isRequired,
+  search: PropTypes.string.isRequired,
 };
 
 export default CurrenciesLogic;

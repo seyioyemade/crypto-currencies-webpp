@@ -7,8 +7,6 @@ const Details = () => {
 
   const { crypto } = location.state || { crypto: {} };
 
-  console.log(crypto);
-
   const backHome = () => {
     navigate('/');
   };
@@ -16,7 +14,11 @@ const Details = () => {
   return (
     <>
       <div>
-        <BiArrowBack onClick={() => backHome()} className="arrow-back" />
+        <BiArrowBack
+          onClick={() => backHome()}
+          className="arrow-back"
+          data-testid="arrow-back-button"
+        />
       </div>
       <div className="crypto-details">
         <h2>
