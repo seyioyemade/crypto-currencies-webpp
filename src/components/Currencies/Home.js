@@ -10,7 +10,7 @@ const Home = () => {
     <>
       <header>
         <div>
-          <h1>Cryto Currencies Rankings</h1>
+          <h1>Cryto Currencies Ranking</h1>
         </div>
         <form action="#">
           <input

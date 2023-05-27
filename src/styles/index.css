@@ -131,7 +131,10 @@ li {
   padding: 2rem;
 }
 
-form,
-input {
+form {
   width: 100%;
+}
+
+input {
+  width: 97%;
 }
