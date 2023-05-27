@@ -25,27 +25,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(1, 1, 102);
   color: white;
+  padding: 3rem;
 }
 
 main {
   display: grid;
   grid-template-columns: 1fr 1fr;
-}
-
-main>button {
-  background: rgb(53 53 129);
-}
-
-main>button:nth-child(4n+2), main>button:nth-child(4n+3) {
-  background: rgb(35 35 107);
-}
-
-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 3rem;
-  margin-bottom: 3rem;
 }
 
 button {
@@ -60,14 +45,35 @@ button {
   width: 100%;
 }
 
-button, button>div {
+button,
+button > div {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
 }
 
-h1, h2, h3, h4 {
-  color: #ffffff;
+main > button {
+  background: rgb(53 53 129);
+}
+
+main > button:nth-child(4n+2),
+main > button:nth-child(4n+3) {
+  background: rgb(35 35 107);
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+  margin-bottom: 3rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #fff;
 }
 
 h3 {
@@ -98,11 +104,8 @@ input {
   outline: none;
 }
 
-body {
-  padding: 3rem;
-}
-
-.arrow-right, .arrow-back {
+.arrow-right,
+.arrow-back {
   width: 3rem;
   height: 3rem;
   color: white;
@@ -121,13 +124,14 @@ ul {
 }
 
 li {
-  color: #ffffff;
+  color: #fff;
   list-style: none;
   font-size: 2rem;
   margin-bottom: 1rem;
   padding: 2rem;
 }
 
-form, input {
+form,
+input {
   width: 100%;
 }
