@@ -25,7 +25,7 @@
 
 # 📖 CRYPTO-CURRENCIES-RANKING <a name="about-project"></a>
 
-**[Crypto Currencies Ranking]** is a website that display a list of cryptocurrencies, their ranks and their current market info.
+**Crypto Currencies Ranking** is a mobile web application that display a list of cryptocurrencies, their ranks and their current market info.
 
 ## 🛠 Built With <a name="built-with">React.js</a>
 
